@@ -1,0 +1,150 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumetrix AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Lumetrix AI</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="login.html" target="_blank">Login</a>
+      <a href="signup.html" target="_blank">Signup</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Revolutionizing the Future with AI</h1>
+    <p>Welcome to Lumetrix AI – powering intelligent robotics, automation, and next-gen programming.</p>
+  </section>
+
+  <section class="features">
+    <img src="images/ai.jpg" alt="Artificial Intelligence" />
+    <img src="images/robotics.jpg" alt="Robotics" />
+    <img src="images/programming.jpg" alt="Programming" />
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>The founder and CEO of the Lumetrix AI company based in USA is a visionary in artificial intelligence and innovation. Our team is dedicated to creating transformative tech solutions.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lumetrix AI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f8fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #3b82f6, #0ea5e9);
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.features img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#about {
+  padding: 3rem 2rem;
+  background: #e2e8f0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0f172a;
+  color: white;
+}
+login.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required /><br /><br />
+      <input type="password" placeholder="Password" required /><br /><br />
+      <button type="submit">Login</button>
+    </form>
+  </section>
+</body>
+</html>
+signup.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h2>Signup</h2>
+    <form>
+      <input type="text" placeholder="Username" required /><br /><br />
+      <input type="email" placeholder="Email" required /><br /><br />
+      <input type="password" placeholder="Password" required /><br /><br />
+      <button type="submit">Signup</button>
+    </form>
+  </section>
+</body>
+</html>
